@@ -1,0 +1,1 @@
+"""Paquete principal del servicio de visión y lectura de placas."""

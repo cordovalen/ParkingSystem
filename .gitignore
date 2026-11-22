@@ -38,6 +38,7 @@ ScaffoldingReadMe.txt
 
 # dotenv environment variables file
 .env
+*.local
 
 # Others
 ~$*
@@ -55,3 +56,19 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Python
+vision-service/__pycache__/
+vision-service/.venv/
+vision-service/venv/
+vision-service/*.egg-info/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Datos locales y temporales
+data/
+*.log
+*.tmp
+*.swp
